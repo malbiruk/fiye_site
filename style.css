@@ -343,12 +343,12 @@ a>img {
   }
 
   .pc-snap.vid {
-    height: 100vh;
-    width: 100vw;
+    height: 50vmax;
+    width: 100vmax;
   }
 
   .first_vid {
-    height: 100vh;
-    width: 100vw;
+    height: 50vmax;
+    width: 100vmax;
   }
 }
