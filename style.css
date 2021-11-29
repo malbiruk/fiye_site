@@ -193,7 +193,8 @@ a>img {
 
 /* VIDEO PAGE */
 .dis_title.photo {
-  max-width: 80%;
+  max-width: 50%;
+  padding-top: 1%;
   margin: 0 auto;
 }
 
@@ -336,6 +337,7 @@ a>img {
   /* VIDEO PAGE */
   .dis_title.photo {
     max-width: 40%;
+
   }
 
   .year.vid img {
