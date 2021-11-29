@@ -291,6 +291,7 @@ p {
   max-width: 50%;
   padding: 1%;
   object-fit: cover;
+  flex: 1 1 0px;
 }
 
 /* MOBILE VIEW */
