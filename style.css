@@ -280,11 +280,12 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
     padding-top: 5%;
   }
 
   .welcome-photo {
-    max-width: 100%;
+    max-width: 90%;
   }
 
   .welcome-text {
