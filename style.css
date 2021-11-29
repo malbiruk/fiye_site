@@ -22,14 +22,9 @@ body {
 }
 
 img {
-  max-width: 30%;
-  height: auto;
-  align-self: center;
-}
-
-a>img {
   max-width: 100%;
   height: auto;
+  align-self: center;
 }
 
 .title {
@@ -38,7 +33,7 @@ a>img {
   justify-content: center;
   align-items: flex-end;
   margin-top: -0.5%;
-  max-width: 90%;
+  max-width: 80%;
   margin: 0 auto;
 }
 
@@ -49,7 +44,6 @@ a>img {
 
 .title img {
   padding: 1.5%;
-  max-width: 100%;
 }
 
 .llinks {
@@ -84,7 +78,7 @@ a>img {
   justify-content: center;
 }
 
-.links>img {
+.links img {
   max-width: 7%;
 }
 
@@ -112,17 +106,16 @@ a>img {
   margin: 0 auto;
 }
 
-.welcome>img {
+.welcome-photo {
+  max-width: 30%;
   padding: 1%;
   padding-bottom: 3%;
 }
 
-.welcome-photo {
-  max-width: 30%;
-}
-
 .welcome-text {
   max-width: 40%;
+  padding: 1%;
+  padding-bottom: 3%;
 }
 
 /* DISCOGRAPHY PAGE */
@@ -132,12 +125,8 @@ a>img {
   justify-content: center;
 }
 
-.dis_title>a {
+.dis_title a {
   max-width: 30%;
-}
-
-a>img {
-  max-width: 100%;
 }
 
 .release_type {
@@ -147,8 +136,10 @@ a>img {
   margin-top: 1%;
 }
 
-.release_type>img {
+.release_type {
+  padding-top: 2%;
   max-width: 25%;
+  margin: 0 auto;
 }
 
 .releases {
@@ -180,15 +171,14 @@ a>img {
   max-width: 100%;
 }
 
-.rel_name>img {
+.rel_name img {
   padding-top: 2%;
-  max-width: 100%;
 }
 
-.year>img {
-  padding-top: 2%;
+.year {
+  margin: 0 auto;
   max-width: 25%;
-  height: auto;
+  padding-top: 2%;
 }
 
 /* VIDEO PAGE */
@@ -198,7 +188,7 @@ a>img {
   margin: 0 auto;
 }
 
-.year.vid img {
+.year.vid {
   max-width: 25%;
 }
 
@@ -233,7 +223,7 @@ a>img {
     padding-right: None;
   }
 
-  .title>img {
+  .title img {
     max-width: 90%;
   }
 
@@ -268,7 +258,7 @@ a>img {
     padding-top: 5%;
   }
 
-  .links>img {
+  .links img {
     max-width: 15%;
   }
 
@@ -282,7 +272,7 @@ a>img {
     padding-bottom: 20%;
   }
 
-  .elinks>a {
+  .elinks a {
     max-width: 30%;
     padding: 1.5%;
   }
@@ -294,11 +284,11 @@ a>img {
     padding-top: 5%;
   }
 
-  .welcome img {
+  .welcome-photo {
     max-width: 100%;
   }
 
-  .welcome>.welcome-text {
+  .welcome-text {
     max-width: 100%;
     padding-top: 2%;
   }
@@ -310,16 +300,14 @@ a>img {
     padding-bottom: 2%;
   }
 
-  .dis_title>a {
+  .dis_title a {
     max-width: 100%;
-  }
-
-  .release_type>img {
-    max-width: 80%;
   }
 
   .release_type {
     padding-bottom: 5%;
+    max-width: 80%;
+    margin: 0 auto;
   }
 
   .releases {
@@ -337,10 +325,9 @@ a>img {
   /* VIDEO PAGE */
   .dis_title.photo {
     max-width: 40%;
-
   }
 
-  .year.vid img {
+  .year.vid {
     max-width: 60%;
   }
 
