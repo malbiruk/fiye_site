@@ -24,6 +24,7 @@ body {
 img {
   max-width: 30%;
   height: auto;
+  align-self: center;
 }
 
 a>img {
@@ -35,26 +36,20 @@ a>img {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: baseline;
+  align-items: flex-end;
   margin-top: -0.5%;
   max-width: 90%;
   margin: 0 auto;
 }
 
-.flowers {
-  max-width: 30%
+.title div {
+  max-width: 100%;
+  padding: 2%;
 }
 
-.in_your {
-  max-width: 5%;
-}
-
-.eyes {
-  max-width: 20%;
-}
-
-.title>img {
+.title img {
   padding: 1.5%;
+  max-width: 100%;
 }
 
 .llinks {
@@ -198,7 +193,6 @@ a>img {
 
 /* VIDEO PAGE */
 .dis_title.photo {
-  display: flex;
   max-width: 80%;
   margin: 0 auto;
 }
@@ -244,7 +238,7 @@ a>img {
 
   .title>.eyes {
     max-width: 60%;
-    margin-top: -10%;
+    margin-top: -5%;
   }
 
   .llinks {
