@@ -226,10 +226,6 @@ img {
     padding-right: None;
   }
 
-  .title img {
-    max-width: 90%;
-  }
-
   .title>.eyes {
     max-width: 60%;
     margin-top: -5%;
