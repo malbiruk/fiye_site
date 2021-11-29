@@ -419,6 +419,7 @@ p {
   .releases.rel_page {
     flex-direction: row;
     max-width: 100%;
+    padding-bottom: 10%;
   }
 
   .releases.rel_page img {

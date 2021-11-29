@@ -298,8 +298,8 @@ a>img {
     padding-top: 5%;
   }
 
-  .welcome>img {
-    max-width: 90%;
+  .welcome img {
+    max-width: 100%;
   }
 
   .welcome>.welcome-text {
