@@ -28,6 +28,7 @@ img {
 
 a>img {
   max-width: 100%;
+  height: auto;
 }
 
 .title {
@@ -348,12 +349,12 @@ a>img {
   }
 
   .pc-snap.vid {
-    height: 50vh;
+    height: 100vh;
     width: 100vw;
   }
 
   .first_vid {
-    height: 50vh;
+    height: 100vh;
     width: 100vw;
   }
 }
