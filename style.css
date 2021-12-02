@@ -251,14 +251,8 @@ img {
   }
 
   .links {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding-top: 5%;
-  }
-
-  .links img {
-    max-width: 15%;
+    max-width: 20%;
   }
 
   .elinks {
