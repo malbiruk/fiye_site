@@ -40,6 +40,7 @@ img {
   margin-top: -0.5%;
   max-width: 80%;
   margin: 0 auto;
+  padding-top: 2%;
 }
 
 .title div {
@@ -81,8 +82,9 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  max-width: 10%;
+  max-width: 9%;
   margin: 0 auto;
+  padding-bottom: 5%;
 }
 
 .elinks {
@@ -90,9 +92,8 @@ img {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  max-width: 90%;
+  max-width: 80%;
   margin: 0 auto;
-  padding-bottom: 3%;
 }
 
 .elinks>a {
