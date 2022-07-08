@@ -81,7 +81,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  max-width: 7%;
+  max-width: 14%;
   margin: 0 auto;
   padding-bottom: 2%;
 }
@@ -251,7 +251,7 @@ img {
   }
 
   .links {
-    max-width: 30%;
+    max-width: 60%;
     padding-bottom: 20%;
   }
 
