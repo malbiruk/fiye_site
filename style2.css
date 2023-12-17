@@ -291,6 +291,10 @@ p {
   max-height: 150vmax;
 }
 
+.ph_cont.y2023 {
+  max-height: 140vmax;
+}
+
 .ph_cont picture {
   max-width: 50%;
   padding: 1%;
