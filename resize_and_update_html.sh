@@ -25,7 +25,7 @@ for png_file in "$directory/imgs"/*.png; do
 
         # Resize PNG versions only if larger than the specified widths
         if [ "$original_width" -gt 1200 ]; then
-            convert "$png_file" "$directory/imgs/${filename_noext}_high.png"
+            convert "$png_file" -resize 1200x "$directory/imgs/${filename_noext}_high.png"
             cwebp -q 80 "$directory/imgs/${filename_noext}_high.png" -o "$directory/imgs/${filename_noext}_high.webp"
         else
             cp "$png_file" "$directory/imgs/${filename_noext}_high.png"
@@ -33,7 +33,7 @@ for png_file in "$directory/imgs"/*.png; do
         fi
 
         if [ "$original_width" -gt 600 ]; then
-            convert "$png_file" "$directory/imgs/${filename_noext}_medium.png"
+            convert "$png_file" -resize 600x "$directory/imgs/${filename_noext}_medium.png"
             cwebp -q 80 "$directory/imgs/${filename_noext}_medium.png" -o "$directory/imgs/${filename_noext}_medium.webp"
         else
             cp "$png_file" "$directory/imgs/${filename_noext}_medium.png"
@@ -41,7 +41,7 @@ for png_file in "$directory/imgs"/*.png; do
         fi
 
         if [ "$original_width" -gt 300 ]; then
-            convert "$png_file" "$directory/imgs/${filename_noext}_low.png"
+            convert "$png_file" -resize 300x "$directory/imgs/${filename_noext}_low.png"
             cwebp -q 80 "$directory/imgs/${filename_noext}_low.png" -o "$directory/imgs/${filename_noext}_low.webp"
         else
             cp "$png_file" "$directory/imgs/${filename_noext}_low.png"
