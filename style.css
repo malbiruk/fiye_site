@@ -37,7 +37,7 @@ a:hover img {
   flex-direction: row;
   justify-content: center;
   align-items: flex-end;
-  max-width: 80%;
+  max-width: 70%;
   margin: 0 auto;
 }
 
@@ -61,7 +61,7 @@ a:hover img {
 }
 
 .disc {
-  max-width: 30%;
+  max-width: 25%;
 }
 
 .llinks a {
@@ -70,11 +70,11 @@ a:hover img {
 }
 
 .photo {
-  max-width: 15%;
+  max-width: 12%;
 }
 
 .video {
-  max-width: 15%;
+  max-width: 12%;
 }
 
 .links {
@@ -92,14 +92,14 @@ a:hover img {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 50%;
+  max-width: 45%;
   margin: 0 auto;
   padding-bottom: 6%;
   padding-top: 1%;
 }
 
 .elinks>a {
-  max-width: 15%;
+  max-width: 14%;
   padding: 1.5%;
 }
 
