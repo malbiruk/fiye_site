@@ -6,7 +6,7 @@ html {
 .pc-snap {
   height: 100vh;
   width: 100vw;
-  max-width: calc(100vh * 1.7);
+  max-width: calc(100vh * 1.8);
   scroll-snap-align: start;
   display: flex;
   flex-direction: column;
@@ -212,8 +212,9 @@ a:hover img {
 }
 
 /* MOBILE VIEW */
-@media screen and (max-width: 992px) and (orientation: portrait) {
+/* @media screen and (max-width: 992px) and (orientation: portrait) { */
 
+@media screen and (max-aspect-ratio: 1/1) and (orientation: portrait) {
   /* MAIN */
   html {
     scroll-snap-type: None;
