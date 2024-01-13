@@ -228,6 +228,7 @@ a:hover img {
     align-items: center;
     padding-left: None;
     padding-right: None;
+    max-width: 80%;
   }
 
   .title>.eyes {
