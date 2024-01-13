@@ -345,11 +345,16 @@ a:hover img {
   }
 
   .year.vid {
-    max-width: 60%;
+    max-width: 70%;
   }
 
   .pc-snap.vid {
     height: 50vmax;
+    width: 100vmax;
+  }
+
+  .pc-snap.mob-snap.vid {
+    height: 100vmax;
     width: 100vmax;
   }
 
