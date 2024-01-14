@@ -34,7 +34,7 @@ for html_file in "$directory"/*.html; do
                                       imgs/${filename_noext}_medium.png 600w,\\
                                       imgs/${filename_noext}_low.png 300w\" \\
     sizes=\"(max-width: 320px) 280px, (max-width: 600px) 600px, (max-height: 480px) 480px, (max-height: 768px) 768px, 1200px\" \/>|" "$html_file"
-                sed -i "s|<img src=\"imgs/${filename_noext}.png\" alt=\"${filename_noext}\" \/>|<img src=\"imgs/${filename_noext}_low.png\" alt=\"${filename_noext}\" \/>|" "$html_file"
+                # sed -i "s|<img src=\"imgs/${filename_noext}.png\" alt=\"${filename_noext}\" \/>|<img src=\"imgs/${filename_noext}_low.png\" alt=\"${filename_noext}\" \/>|" "$html_file"
             fi
         done
     fi
@@ -57,7 +57,7 @@ if [ -f "$html_file" ]; then
                                       photos/\1_low.jpg 300w\" \\
     sizes=\"(max-width: 320px) 280px, (max-width: 600px) 600px, (max-height: 480px) 480px, (max-height: 768px) 768px, 1200px\" \/>|" "$html_file"
 
-    sed -i "s|<img src=\"photos/\(.*\).jpg\"|<img src=\"photos/\1_low.jpg\"|g" "$html_file"
+    # sed -i "s|<img src=\"photos/\(.*\).jpg\"|<img src=\"photos/\1_low.jpg\"|g" "$html_file"
 else
     echo "Error: $html_file does not exist."
     exit 1

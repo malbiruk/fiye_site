@@ -2,6 +2,7 @@
 # creates responsive images and updates fiye_site/ folder
 
 cp -r /home/klim/Documents/music/fiye_site_init /home/klim/Documents/music/fiye_site_dev
+/home/klim/Documents/music/fiye_site_init/add_dimenions_to_imgs.py /home/klim/Documents/music/fiye_site_dev
 
 if [ "$1" = "--skip-resize" ]; then
     cp -r /home/klim/Documents/music/fiye_site/imgs /home/klim/Documents/music/fiye_site_dev/
