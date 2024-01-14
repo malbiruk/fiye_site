@@ -14,6 +14,3 @@ fi
 
 rsync -a --delete --exclude='.*' /home/klim/Documents/music/fiye_site_dev/ /home/klim/Documents/music/fiye_site/
 rm -rf /home/klim/Documents/music/fiye_site_dev
-
-rsync -a --delete --exclude='.*' /home/klim/Documents/music/fiye_site_dev/ /home/klim/Documents/music/fiye_site/
-rm -rf /home/klim/Documents/music/fiye_site_dev
