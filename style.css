@@ -23,6 +23,12 @@ body {
   color: #191918;
 }
 
+img[alt] {
+  font-family: 'Noto Sans', 'Helvetica', sans-serif;
+  color: #191918;
+  font-style: italic;
+}
+
 img {
   max-width: 100%;
   height: auto;
