@@ -33,7 +33,11 @@ for html_file in os.listdir(directory):
                     img = Image.open(img_path)
                     new_img_line = re.sub(
                         r'(<img[^>]+src="[^"]+")',
-                        r'\1 width="%spx" height="%spx"' % (img.width, img.height), img_line)
+                        (r'\1 width="%spx" height="%spx" '
+                        'style="color: transparent;" '
+                         'onload="this.style.color=\'#7f7d78\'" '
+                         'onerror="this.style.color=\'#7f7d78\'"') % (
+                            img.width, img.height), img_line)
                     html_content = html_content.replace(img_line, new_img_line)
                 else:
                     print("Image not found:", img_path)
