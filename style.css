@@ -213,6 +213,12 @@ a:hover img {
 
 /* MOBILE VIEW */
 /* @media screen and (max-width: 992px) and (orientation: portrait) { */
+@media (pointer: coarse) {
+  html {
+    scroll-snap-type: None;
+  }
+}
+
 
 @media screen and (max-aspect-ratio: 1/1) and (orientation: portrait) {
   /* MAIN */
