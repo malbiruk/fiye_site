@@ -12,7 +12,7 @@ if len(sys.argv) != 2:
 
 directory = sys.argv[1]
 
-print("Adding dimensions to <img>'s...'\n")
+print("Adding dimensions to <img>'s...\n")
 for html_file in os.listdir(directory):
     if html_file.endswith(".html"):
         html_path = os.path.join(directory, html_file)
