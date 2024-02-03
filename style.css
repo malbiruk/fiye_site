@@ -452,7 +452,7 @@ a:hover img {
 
 /* DARK MODE */
 @media (prefers-color-scheme: dark) {
-  img, .flowers, .your, .eyes, .welcome-photo, .cover, iframe {
+  img, .flowers, .your, .eyes, .welcome-photo, .cover {
     filter: invert(1) hue-rotate(180deg);
   }
   body {

@@ -546,7 +546,7 @@ p {
 
 /* DARK MODE */
 @media (prefers-color-scheme: dark) {
-  img, .flowers, .your, .eyes, .welcome-photo, .cover, .releases, .ph_cont, iframe, p, h1 {
+  img, .flowers, .your, .eyes, .welcome-photo, .cover, .releases, .ph_cont, p, h1 {
     filter: invert(1) hue-rotate(180deg);
   }
   body {
