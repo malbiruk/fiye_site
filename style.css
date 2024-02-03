@@ -233,7 +233,6 @@ a:hover img {
   max-width: 30%;
 }
 
-
 /* VIDEO PAGE */
 .dis_title.photo {
   max-width: 50%;
@@ -264,8 +263,8 @@ a:hover img {
   }
 }
 
-
 @media screen and (max-aspect-ratio: 1/1) and (orientation: portrait) {
+
   /* MAIN */
   html {
     scroll-snap-type: None;
@@ -422,7 +421,6 @@ a:hover img {
   }
 
   /* MERCH PAGE */
-
   .merch_title {
     max-width: 90%;
   }
@@ -449,5 +447,15 @@ a:hover img {
     max-width: 90%;
     margin: 0 auto;
     padding-bottom: 15%;
+  }
+}
+
+/* DARK MODE */
+@media (prefers-color-scheme: dark) {
+  img, .flowers, .your, .eyes, .welcome-photo, .cover, iframe {
+    filter: invert(1) hue-rotate(180deg);
+  }
+  body {
+    background: #282828;
   }
 }

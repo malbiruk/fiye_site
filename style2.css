@@ -531,7 +531,7 @@ p {
     max-width: 100%;
   }
 
-  .ph_cont.y2024, .ph_cont.y2023, .ph_cont.y2022, .ph_cont.y2021, .ph_cont.y2019, .ph_cont.y2020 {
+  .ph_cont {
     max-height: none;
   }
 
@@ -541,5 +541,15 @@ p {
 
   .release_type.photo {
     max-width: 25%;
+  }
+}
+
+/* DARK MODE */
+@media (prefers-color-scheme: dark) {
+  img, .flowers, .your, .eyes, .welcome-photo, .cover, .releases, .ph_cont, iframe, p, h1 {
+    filter: invert(1) hue-rotate(180deg);
+  }
+  body {
+    background: #282828;
   }
 }
