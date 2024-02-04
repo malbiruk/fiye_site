@@ -531,7 +531,7 @@ p {
     max-width: 100%;
   }
 
-  .ph_cont.y2019 .ph_cont.y2020 .ph_cont.y2021 .ph_cont.y2022 .ph_cont.y2023 {
+  .ph_cont.y2024, .ph_cont.y2023, .ph_cont.y2022, .ph_cont.y2021, .ph_cont.y2019, .ph_cont.y2020 {
     max-height: none;
   }
 
