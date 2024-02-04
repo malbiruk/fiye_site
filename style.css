@@ -60,6 +60,21 @@ a:hover img {
   padding: 1.5%;
 }
 
+.your {
+  filter: invert(0);
+  /* it is necessary for clickable area to work */
+}
+
+.clickable-area {
+  position: absolute;
+  top: 67%;
+  left: 62%;
+  width: 10%;
+  height: 22%;
+  /* cursor: pointer; */
+  /* background-color: rgba(255, 0, 0, 0.5); */
+}
+
 .llinks {
   display: flex;
   flex-direction: row;
@@ -255,6 +270,28 @@ a:hover img {
   height: 100%;
 }
 
+/* SECRET PAGE */
+.title>.path_w {
+  max-width: 35%;
+}
+
+.welcome_path_w {
+  max-width: 50%;
+  margin: 0 auto;
+  padding-top: 2%;
+  filter: invert(0);
+}
+
+.clickable-area-2 {
+  position: absolute;
+  top: 73%;
+  left: 71%;
+  width: 30%;
+  height: 20%;
+  /* cursor: pointer; */
+  /* background-color: rgba(255, 0, 0, 0.5); */
+}
+
 /* MOBILE VIEW */
 /* @media screen and (max-width: 992px) and (orientation: portrait) { */
 @media (pointer: coarse) {
@@ -310,6 +347,14 @@ a:hover img {
   .title>.eyes {
     max-width: 60%;
     margin-top: -5%;
+  }
+
+  .clickable-area {
+    position: absolute;
+    top: 67%;
+    left: 63.5%;
+    width: 10%;
+    height: 22%;
   }
 
   .llinks {
@@ -448,13 +493,33 @@ a:hover img {
     margin: 0 auto;
     padding-bottom: 15%;
   }
+
+  /* SECRET PAGE */
+  .title {
+    max-width: 90%;
+  }
+
+  .title>.path_w {
+    max-width: 100%;
+    padding-bottom: 10%;
+  }
+
+  .elinks.secret {
+    max-width: 75%;
+  }
+
+  .welcome_path_w {
+    padding-top: 10%;
+    max-width: 95%;
+  }
 }
 
 /* DARK MODE */
 @media (prefers-color-scheme: dark) {
-  img, .flowers, .your, .eyes, .welcome-photo, .cover {
+  img, .flowers, .your, .eyes, .path_w, .welcome-photo, .cover, p {
     filter: invert(1) hue-rotate(180deg);
   }
+
   body {
     background: #282828;
   }
