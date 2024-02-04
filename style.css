@@ -272,11 +272,11 @@ a:hover img {
 
 /* SECRET PAGE */
 .title>.path_w {
-  max-width: 35%;
+  max-width: 40%;
 }
 
 .welcome_path_w {
-  max-width: 50%;
+  max-width: 40%;
   margin: 0 auto;
   padding-top: 2%;
   filter: invert(0);
@@ -511,6 +511,7 @@ a:hover img {
   .welcome_path_w {
     padding-top: 10%;
     max-width: 95%;
+    padding-bottom: 20%;
   }
 }
 
