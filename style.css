@@ -513,6 +513,10 @@ a:hover img {
     max-width: 95%;
     padding-bottom: 20%;
   }
+
+  .clickable-area-2 {
+    top: 45%;
+  }
 }
 
 /* DARK MODE */
