@@ -61,18 +61,18 @@ a:hover img {
 }
 
 .your {
+  position: relative;
   filter: invert(0);
-  /* it is necessary for clickable area to work */
 }
 
 .clickable-area {
   position: absolute;
-  top: 67%;
+  top: 68%;
   left: 62%;
   width: 10%;
   height: 22%;
   /* cursor: pointer; */
-  /* background-color: rgba(255, 0, 0, 0.5); */
+  background-color: rgba(255, 0, 0, 0.5);
 }
 
 .llinks {
@@ -276,6 +276,7 @@ a:hover img {
 }
 
 .welcome_path_w {
+  position: relative;
   max-width: 40%;
   margin: 0 auto;
   padding-top: 2%;
@@ -291,6 +292,8 @@ a:hover img {
   /* cursor: pointer; */
   /* background-color: rgba(255, 0, 0, 0.5); */
 }
+
+
 
 /* MOBILE VIEW */
 /* @media screen and (max-width: 992px) and (orientation: portrait) { */
@@ -351,10 +354,10 @@ a:hover img {
 
   .clickable-area {
     position: absolute;
-    top: 67%;
+    top: 66%;
     left: 63.5%;
     width: 10%;
-    height: 22%;
+    height: 23%;
   }
 
   .llinks {
