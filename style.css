@@ -147,9 +147,17 @@ a:hover img {
 }
 
 .welcome-text {
-  max-width: 40%;
-  padding: 1%;
+  max-width: 37%;
+  padding-top: 0%;
+  padding-left: 2.5%;
   padding-bottom: 3%;
+  font-size: min(.95vw, 1.65vh)
+}
+
+.welcome-text a {
+  font-weight: bold;
+  color: unset;
+  text-decoration: none;
 }
 
 /* DISCOGRAPHY PAGE */
@@ -293,8 +301,6 @@ a:hover img {
   /* background-color: rgba(255, 0, 0, 0.5); */
 }
 
-
-
 /* MOBILE VIEW */
 /* @media screen and (max-width: 992px) and (orientation: portrait) { */
 @media (pointer: coarse) {
@@ -411,8 +417,9 @@ a:hover img {
   }
 
   .welcome-text {
-    max-width: 100%;
+    max-width: 90%;
     margin: 0 auto;
+    font-size: 90%;
   }
 
   /* DISCOGRAPHY */
